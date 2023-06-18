@@ -1,0 +1,10 @@
+# Host webpage using httpd.
+1) Create Launch Instance --Name Instance -- Select AMI --Create key pair --In Networking allow SSH and Http Configure by default > go to Advnaced User data
+		#!/bin/bash
+		sudo yum update -y
+		sudo yum install httpd -y
+		sudo systemctl start httpd
+		sudo systemctl enable httpd
+		sudo echo "welcome to the my wepage $(hostname-f)" > /var/www/html/index.html
+	3) Launch Instance
+	4) Copy public ip and paste it in Browser url then page will be displayed.

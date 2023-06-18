@@ -1,0 +1,13 @@
+
+   1) Go to EC2
+	2) Click launch template
+	3) Select os image--default luinux
+	4) Instance type--- t3.micro
+	5) Select keypair
+	6) Select subnet and security group --select existing
+	7) Click launch template.
+	8) Select template name --go to action-- select launch instance form template-- go by default
+	9) Click launch instance
+	10) Select the instanc---go to action-- select image and templates-- select create image
+	11) Image name: image-ami-01-- go by default -- click create image
+	12) check AMIS

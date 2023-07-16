@@ -1,0 +1,10 @@
+1) Create Stack > Template is Ready > Upload a template file
+	Choose File (Which we downloaded in system)
+	Next
+	Stack Name (EC2-Stack)
+	Parameters InstanceType (t3.small) > KeyName (Select an existing key) > Next > Next > Submit
+	
+2) Check EC2 > for the instance which need be created by CloudFormation
+3) we can chenge or Update the instance as below
+	Go to CloudFormation > Update Stack > InstanceType (t2.micro) > Submit
+4) Now go to EC2 there instance will be updated with the new instance type as t2.micro
